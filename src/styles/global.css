@@ -21,6 +21,18 @@ body {
   margin: 0;
 }
 
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 h1,
 h2,
 h3,
@@ -28,4 +40,12 @@ h4,
 h5,
 h6 {
   color: var(--black);
+}
+
+.listing-style {
+  list-style-type: none;
+}
+
+.image-style {
+  border-radius: 1.5%;
 }

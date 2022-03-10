@@ -24,3 +24,11 @@
   margin: 3rem auto;
   max-width: 54ch;
 }
+
+/* CSS that's applied when the viewing area's width is 800px or less */
+@media screen and (max-width: 800px) {
+  .content {
+    margin: 3rem 1.4rem;
+    max-width: fit-content;
+  }
+}
