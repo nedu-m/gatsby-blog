@@ -26,7 +26,7 @@ export function Seo(props) {
   return (
     <Helmet>
       <title>{title}</title>
-      <meta name="description" content={description} />
+      <meta name="description" lang="en" content={description} />
       <link rel="canonical" href={url} />
       {image && <meta name="image" content={image} />}
 
