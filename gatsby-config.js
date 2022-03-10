@@ -1,15 +1,15 @@
 module.exports = {
   siteMetadata: {
     siteUrl: "https://www.yourdomain.tld",
-    title: "Portfolio Site",
-    description: "A Gatsby Portfolio Site",
+    title: "Nedu'm Portfolio",
+    description: "Nedu'm is a front end developer. With these technical skills - react, vue, javascript, styled-components and tailwindcss building the best user-interfaces are his favorite thing on the web.",
     image:
-      "https://res.cloudinary.com/jlengstorf/image/upload/v1628127675/frontend-masters/gatsby-intro/share-image.jpg",
+      "src/images/pfp.png",
   },
   plugins: ["gatsby-plugin-styled-components", "gatsby-plugin-image", "gatsby-plugin-react-helmet", "gatsby-plugin-sitemap", "gatsby-remark-images", {
     resolve: 'gatsby-plugin-manifest',
     options: {
-      "icon": "src/images/icon.png"
+      "icon": "src/images/pfp.png"
     }
   }, "gatsby-plugin-sharp", "gatsby-transformer-sharp", {
     resolve: 'gatsby-source-filesystem',

@@ -1,0 +1,25 @@
+---
+date: 2022-08-12
+slug: Different Blog
+title: Same image Blog
+description: Look well
+---
+
+import { graphql } from "gatsby";
+import { GatsbyImage, getImage } from "gatsby-plugin-image";
+
+export const query = graphql`
+  query imageQueryAndImageQuery {
+    file(name: { eq: "apex" }) {
+      childImageSharp {
+        gatsbyImageData(placeholder: DOMINANT_COLOR)
+      }
+    }
+  }
+`;
+
+# Well, ...well.
+
+<GatsbyImage image={getImage(props.data.file)} alt="same apex" />
+
+Same image, different query format.
